@@ -1,0 +1,84 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 100px;
+  border: 1px solid black;
+}
+
+header {
+  background-color: #001216;
+}
+
+header h1 {
+  color: #15dcd3;
+  padding: 9px;
+}
+
+header p {
+  padding-left: 8px;
+  padding-bottom: 10px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.text-content {
+  margin: 40px 10px;
+  padding-top: 10px;
+}
+
+.text-content p {
+  letter-spacing: 3px;
+  line-height: 20px;
+}
+
+.img-text-content img {
+  width: 200px;
+}
+
+.img-text-content {
+  border: 1px solid black;
+  margin: 40px 10px 50px 30px;
+  padding: 5px 20px 5px;
+}
+
+.img-text-content p {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.footer {
+  position: relative;
+  background-color: #d9ebeb;
+  padding: 15px 0 15px 15px;
+}
+
+.facts {
+  position: absolute;
+  left: 0;
+  top: -27px;
+  background-color: #001216;
+  color: white;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.footer span {
+  font-weight: bold;
+}
+
+.footer p {
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+}
