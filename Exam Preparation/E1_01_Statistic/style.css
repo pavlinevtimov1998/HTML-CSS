@@ -1,0 +1,101 @@
+@import url(https://fonts.google.com/specimen/Ubuntu);
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  position: relative;
+  margin: 50px 100px;
+  width: 75vw;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  position: absolute;
+  background-color: #142e59;
+  opacity: 0.9;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  height: 100%;
+}
+
+main section {
+  margin: 8% 5%;
+}
+
+main article p {
+  color: white;
+  text-align: center;
+}
+
+main div {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+div i {
+  font-size: 20px;
+  color: #ec8421;
+}
+
+.employees :nth-child(2) {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.employees :nth-child(3) {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.kilometers :nth-child(2) {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.kilometers :nth-child(3) {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.clients :nth-child(2) {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.clients :nth-child(3) {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.shipments :nth-child(2) {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.shipments :nth-child(3) {
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+}
+
+.close i {
+  font-size: 18px;
+  color: white;
+}
