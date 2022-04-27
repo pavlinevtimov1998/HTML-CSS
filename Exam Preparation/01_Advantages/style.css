@@ -1,0 +1,56 @@
+@import url(https://fonts.google.com/specimen/Lato);
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+main {
+  margin: 100px 200px;
+  position: relative;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f5f7;
+  margin: 2px;
+  padding: 15px;
+}
+
+main :nth-child(2) {
+  border-radius: 5px 0 0 0;
+}
+
+main :last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+.line p {
+  font-size: 12px;
+}
+
+.line i {
+  font-size: 18px;
+  margin-right: 26px;
+  color: #21bd5c;
+}
+
+main div {
+  position: absolute;
+  top: -31px;
+  right: 2px;
+  background-color: #42abf8;
+  padding: 8px 14px;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
+
+main div p {
+  font-size: 13px;
+  font-weight: 600;
+}
