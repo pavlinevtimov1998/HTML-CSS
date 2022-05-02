@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+@import url(/main.css);
+@import url(/footer.css);
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: #f93700;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.nav-link {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+
+.nav-link li {
+  margin: 0 25px;
+  letter-spacing: 0.5px;
+}
+
+.header-nav form {
+  margin-right: 25px;
+}
+
+.header-nav form [type="text"] {
+  padding: 12px 200px 12px 12px;
+  font-size: 12px;
+  border: 1px solid #b6afaf;
+}
+
+.header-nav form button {
+  float: right;
+  border: 1px solid #b6afaf;
+  padding: 10.8px 28px;
+  background-color: #b6afaf;
+}
+
+button i {
+  color: white;
+  font-size: 12px;
+}
+
+.header-nav article {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.header-nav article i {
+  margin-right: 10px;
+}

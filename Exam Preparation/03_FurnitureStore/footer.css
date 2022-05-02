@@ -1,0 +1,60 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 110px 30px 105px;
+}
+
+.footer article,
+.social-media,
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer-list li {
+  margin: 0 10px;
+  font-size: 12px;
+  color: #77798d;
+  text-align: center;
+}
+
+.footer-list li:first-child {
+  color: #5e5e60;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: -2px;
+}
+
+.two p {
+  color: #5e5e60;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.two button {
+  border: none;
+  padding: 8px 50px;
+  background-color: #cac3c3;
+  border-radius: 3px;
+  color: #404557;
+}
+
+.two {
+  gap: 20px;
+}
+
+.two time {
+  color: #77798d;
+  font-size: 12px;
+}
+
+.social-media {
+  gap: 10px;
+}
+
+.social-media i {
+  font-size: 22px;
+  color: #5e5e60;
+}
