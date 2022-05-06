@@ -1,0 +1,178 @@
+/* content */
+
+.content {
+  display: flex;
+  /* align-items: center; */
+  gap: 5rem;
+  margin: 10.3rem 12rem;
+}
+
+.text {
+  width: 60%;
+}
+
+.text h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.text p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8rem;
+}
+
+/* world img */
+
+.world i {
+  margin-top: 0.5rem;
+  font-size: 13rem;
+}
+
+.text .button {
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: white;
+}
+
+/* team members */
+
+.join {
+  position: relative;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.join div {
+  border-top: 4px solid black;
+  width: 8%;
+  position: absolute;
+  left: 46%;
+  top: 80px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 6rem;
+}
+
+.members {
+  width: 25%;
+  text-align: center;
+}
+
+.members h5 {
+  font-size: 1.2rem;
+  margin: 2rem 0 0.1rem 0;
+}
+
+.members .text-content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+/* Newsletter sign up */
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #68347b;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.newsletter h2 {
+  margin: 20px 0 80px 0;
+  font-size: 3rem;
+  color: white;
+}
+
+.newsletter input {
+  padding: 11px 140px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.newsletter form button {
+  padding: 9.8px 40px;
+  font-size: 1rem;
+  margin-left: 8px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.newsletter form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.newsletter div {
+  border-top: 4px solid black;
+  width: 8%;
+  position: absolute;
+  left: 46%;
+  top: 100px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: left;
+  padding: 40px 20px;
+  background-color: #e5e5e5;
+}
+
+.footer-text {
+  width: 30%;
+}
+
+.footer-text h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.footer-text p {
+  font-size: 1.3rem;
+}
+
+.sitemap h6,
+.contacts h4 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.sitemap ul li,
+.terms ul li {
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+}
+
+.contacts ul {
+  line-height: 1.9rem;
+  font-size: 1.3rem;
+}
+
+.adress {
+  display: flex;
+}
+
+.contacts ul li i {
+  margin-right: 8px;
+}
+
+.adress article p {
+  line-height: 20px;
+}

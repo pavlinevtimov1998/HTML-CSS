@@ -1,0 +1,58 @@
+@import url(main.css);
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #68347b;
+}
+
+/* headings */
+
+.headings {
+  margin-left: 2rem;
+  color: #ffffff;
+}
+
+.headings h1 {
+  font-size: 3rem;
+  margin-bottom: 7px;
+}
+
+.headings h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+/* navigation */
+
+.navigation {
+  margin-right: 3.5rem;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navigation-list a {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
